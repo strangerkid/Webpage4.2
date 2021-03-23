@@ -1,0 +1,88 @@
+/* FONTS ******************************/
+
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat/Montserrat-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat2;
+  src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat3;
+  src: url(fonts/Montserrat/Montserrat-ThinItalic.ttf);
+}
+
+/**************************************/
+
+body{
+  display: flex;
+  font-family: Montserrat3;
+  justify-content: center;
+  background: repeating-linear-gradient(
+  45deg,
+  #FFA07A,
+  #FFA07A 10px,
+  #465298 10px,
+  #465298 20px
+);
+}
+
+h1 {
+  font-family: Montserrat;
+  background: #6495ED;
+}
+
+.bodytext {
+  font-family: Montserrat
+}
+
+#donut{
+  position: relative;
+  top:20px;
+  height: 20px;
+  width: 300px;
+}
+
+#hero-image img {
+  width: 250px;
+  height: 250px;
+}
+
+#hero-image{
+  display: flex;
+  justify-content: center;
+}
+
+#donut-hole {
+  box-shadow: 5px 10px #000000;
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px
+}
+
+ul {
+  position: relative;
+  margin-bottom: -5px;
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0px;
+}
+
+a {
+  font-family: Montserrat2;
+  text-decoration: none;
+  background: #FFF;
+  padding: 13.5px;
+}
+
+a:hover{
+  background: #66CDAA;
+}
